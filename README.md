@@ -24,10 +24,45 @@ npm install
 
 ```json
 {
-  "token": "BURAYA_BOT_TOKENINIZI_GİRİN",
-  "prefix": "/",
-  "logChannel": "volta-log"
+  "token": "bot tokenin",
+  "rulesChannelId": "kurallar kanalı idsi",
+  "otorol": "sunucuya giricek kişilere vericek otomatik rol",
+  "welcomeChannel": "hoşgeldin kanalı idsi",
+  "welcomeImageUrl": "./resimler/hosgeldin.png", // yeni girenleri gösterirken altına ekliyeceği resim yolu
+  "logChannel": "bannedwords logları giriş cıkıs logları kanal idsi",
+  "ticketCategory": "ticket kategorisi",
+  "ticketLogChannel": "kapatılan ticket log kanalı",
+  "ticketStaffRole": "ticket yetkilisi rol idsi",
+  "ticketSystem": {
+    "categoryId": "üsttekilerle birebiraynı yapmanız lazım ",
+    "logChannelId": "log channel idsi",
+    "staffRoleId": "ticket yetkilisi rol idsi",
+    "transcriptChannelId": "ticket log channel idsi"
+  },
+  "registerSystem": {
+    "verifiedRoleId": "kayıt sistemi kuralları okıyan ve kayıt ol butonuna basan kişilere verilcek kayılı rol idsi",
+    "memberRoleId": "verifed rolle ayni ıdsyi giriniz",
+    "registerChannelId": "kayıt kanalı idsi",
+    "welcomeImage": "./resimler/welcome.png"
+  },
+  "bannedWords": [
+    "allah",
+    "şehit",
+    "sehid",
+    "muhammed",
+    "muhammet",
+    "discord.gg",
+    "html",
+    "https",
+    "amk"
+  ],
+  "rolePermissions": {},
+  "whitelist": [
+    "yasaklamalardan etkilenmeyecek kişiler",
+    "763443363126706186"
+  ]
 }
+
 ```
 
 ### 3️⃣ Botu Çalıştırın
